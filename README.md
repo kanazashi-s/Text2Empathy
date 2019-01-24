@@ -1,6 +1,12 @@
 Text2Empathy
 ====
 
+テキストファイルを指定すると、そのテキストファイルの内容から感情分析を行います。  
+[Google-Cloud-Natural-Language-APIのサンプルコード analyze.py](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/language/api)を使用しています。  
+
+## Description
+[Cloud Natural Language API ドキュメント](https://cloud.google.com/natural-language/docs/)
+
 
 ## Demo
 メモ帳上に表示されているテキストファイルを読み込み、感情分析を行っています。  
@@ -56,3 +62,20 @@ scoreは-1から1の値をとり、-1に近いほど負の感情、1に近いほ
 - `entities`に変更すると、テキスト内に既知のエンティティ(著名人・ランドマークなどの固有名詞)が含まれているか分析し、そのエンティティに関する情報を返します。  
 - `syntax`に変更すると、テキストに対し構文分析を行います。詳細については[形態論と依存関係ツリー](https://cloud.google.com/natural-language/docs/morphology)を参照ください。  
 
+## Install
+必要なライブラリは、'requirements.txt'に記述してあります。  
+そのため、以下のコマンドを任意の場所で実行していただくことにより、必要なライブラリがすべてインストールされます。  
+`pip install -r requirements.txt`  
+※Anaconda環境にてPythonのインストールを行った場合は、pipコマンドとcondaコマンドを併用してのインストールはおやめください。
+
+
+## Contribution  
+お待ちしております。  
+フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。  
+プルリクエストもお願いします。  
+
+## Licence  
+This source is licensed under the Apache License, Version2.0
+
+## Author
+zashio
