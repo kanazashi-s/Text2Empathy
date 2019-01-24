@@ -12,7 +12,7 @@ Text2Empathy
 メモ帳上に表示されているテキストファイルを読み込み、感情分析を行っています。  
 magnitudeは常に正の値をとり、感情の強さを表していますが、テキストの長さにも依存します。  
 scoreは-1から1の値をとり、-1に近いほど負の感情、1に近いほど正の感情を表します。  
-![result](https://github.com/zacceydesuyo/Text2Empathy/blob/development/Text2EmpathyDemo.gif)  
+![result](https://github.com/zashio/Text2Empathy/blob/master/Text2EmpathyDemo.gif)  
   
 
 ## Requirement
